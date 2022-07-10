@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=PT+Serif:wght@700&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Oswald&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.emphasise-1 {
+}
+#logo {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* border-radius: 200px; */
+  padding: 1%;
+}
+
+.cont {
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+#subtitle {
+  color: white;
+  text-align: center;
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+}
+
+.logoCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #282828;
+}
+
+#hometxt {
+  font-family: "Exo 2", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.nav-list p {
+  padding: 18px 30px;
+}
+
+.nav-list p a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-list p a:hover {
+  text-decoration: none;
+  color: #ffcf00;
+}
+
+.footercont {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.welcontbox {
+  display: flex;
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 10px;
+  width: 100%;
+  background-color: #e78432;
+}
+
+.footertxt {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#copywrite {
+  text-align: center;
+  padding: 1%;
+  background-color: #121212;
+  color: white;
+}
+
+.item {
+  color: white;
+  /* text-decoration: none; */
+  padding: 1%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 75vh;
+  align-items: center;
+  padding-top: 7%;
+}
+
+.cardCont {
+  margin: auto;
+}
+
+#card {
+  padding: 15px 20px 20px 20px;
+  text-align: center;
+  margin-top: 113px;
+  width: 250px;
+  height: 260px;
+  background-color: #f9eff5;
+  margin-top: -113px;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+#Icon {
+  margin-top: -90px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  margin-left: -61px;
+}
+
+.sectionTag {
+  font-size: 30px;
+  margin-top: 60px;
+  font-family: "Oswald", sans-serif;
+  color: #333;
+}
+
+.sectionSubTag {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.sec-cont {
+  justify-content: center;
+  display: flex;
+  background-color: #f3f3f2;
+  margin: 5%;
+  padding: 3%;
+  align-items: center;
+  /* border-radius: 5px; */
+}
+
+#stimg {
+  width: 40%;
+  /* height: 40%; */
+  object-fit: cover;
+  /* top: -40; */
+  border-radius: 10px;
+  /* position: absolute; */
+  /* display: block; */
+}
+
+#second-img {
+  width: 40%;
+  /* height: 10%; */
+  object-fit: cover;
+  /* top: -40; */
+  border-radius: 10px;
+  justify-content: center;
+  justify-self: center;
+  /* position: absolute; */
+  /* display: block; */
+}
+
+.st-cont {
+  margin: 3%;
+}
+
+.st-title {
+  font-family: "Arya", sans-serif;
+  /* font-size: 14px; */
+  font-weight: bold;
+  color: #445380;
+  font-size: 33px;
+}
+
+.description {
+  margin-top: 10px;
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.leader-img {
+  width: 210px;
+  border-radius: 5px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.scl {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.school-leader {
+  margin: 5%;
+  /* padding: 3%; */
+}
+
+.scl {
+  padding: 2%;
+}
+
+.scl-cont {
+  margin: 2%;
+}
+
+.emphasise-1 {
+  visibility: hidden;
+  font-size: 0px;
+}
+
+.emphasise-2 {
+  font-weight: bolder;
+  font-family: "Lato", sans-serif;
+  color: #363e55;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  padding: 7px;
+}
+
+.brcont {
+  visibility: hidden;
+  top: -1000px;
+  position: absolute;
+}
+
+.ham-menu {
+  visibility: hidden;
+}
+
+#logo {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* border-radius: 200px; */
+  padding: 1%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  visibility: hidden;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.sd-nav p a:hover {
+  /* padding: 18px 30px; */
+  text-decoration: none;
+  color: #ffcf00;
+}
+
+@media only screen and (max-width: 1000px) {
+  .brcont {
+    /* padding: 20px; */
+    background-color: #282828;
+    visibility: visible;
+    top: 0px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .ham-menu {
+    visibility: visible;
+  }
+
+  .logo {
+    width: 16%;
+    justify-content: center;
+    margin-left: 120px;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .nav-list {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+  }
+
+  .st-title {
+    font-family: "Lato", sans-serif;
+
+    font-size: 18px;
+  }
+
+
+
+  .subtitle {
+    font-family: "Arya", sans-serif;
+    color: #ffcf00;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #stimg {
+    width: 100%;
+    /* height: 40%; */
+    object-fit: cover;
+    /* top: -40; */
+    border-radius: 10px;
+    /* position: absolute; */
+    /* display: block; */
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .sec-cont {
+    /* display: flex; */
+    display: block;
+    /* border-radius: 5px; */
+  }
+
+  .leader-img {
+    width: 160px;
+    height: 165px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .emphasise-1 {
+    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+    color: #363e55;
+    font-size: medium;
+    margin-top: 10px;
+    visibility: visible;
+    font-size: 20px;
+  }
+
+  .emphasise-2 {
+    visibility: hidden;
+    font-size: 0px;
+  }
+
+  .scl {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #second-img {
+    width: 100%;
+  }
+}

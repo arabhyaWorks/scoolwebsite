@@ -1,0 +1,662 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=PT+Serif:wght@700&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Oswald&family=Tiro+Devanagari+Hindi&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Kurale&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#vanish {
+  display: block;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: #4a484c;
+}
+
+#logo {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* border-radius: 200px; */
+  padding: 1%;
+}
+
+body {
+  background-color: #f7f3fe;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: "Exo 2", sans-serif;
+  transition: 0.25s;
+}
+
+#hometxt {
+  font-family: "Exo 2", sans-serif;
+}
+
+.nav-list p {
+  padding: 18px 30px;
+}
+
+.nav-list p a {
+  /* padding: 18px 30px; */
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  /* font-weight: bold; */
+}
+
+.nav-list p a:hover {
+  /* padding: 18px 30px; */
+  text-decoration: none;
+  color: #ffcf00;
+}
+
+.sd-nav p a:hover {
+  /* padding: 18px 30px; */
+  text-decoration: none;
+  color: #ffcf00;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  width: 70%;
+  margin: auto;
+  height: 85%;
+}
+
+.firstSection {
+  height: 100vh;
+  /* background-color: rebeccapurple; */
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.6) url("../img/bg.jfif");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+#studentImg {
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  /* padding: 5px; */
+
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.firstHalf {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+
+.yellow {
+  color: #ffcf00;
+
+  font-size: 41px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.secondHalf {
+  width: 40%;
+}
+
+.titletxt {
+  /* display: flex; */
+}
+
+.text-big {
+  font-size: 41px;
+  font-family: "Arya", sans-serif;
+  color: #ffcf00;
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 18px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 7px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sectionTag {
+  font-size: 41px;
+  font-weight: bold;
+  font-family: "Arya", sans-serif;
+}
+
+.sectionSubTag {
+  /* color: white; */
+  font-size: 15px;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.secRight {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+
+.logoCont {
+  /* display: flex; */
+  background-color: #282828;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-cont {
+  justify-content: center;
+}
+
+.contlogoparent {
+  /* display: flex; */
+}
+
+#title {
+  /* color: white; */
+  font-size: 60px;
+  /* font-family: adam; */
+  font-weight: bold;
+  color: white;
+}
+
+#subtitle {
+  color: white;
+  text-align: center;
+  /* font-family: 'Exo 2', sans-serif; */
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 22px;
+}
+
+.cont {
+  justify-content: center;
+  align-items: center;
+}
+
+.secRight {
+  /* float: left; */
+  border-radius: 8px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  margin: 1%;
+  padding: 1%;
+  width: 250px;
+  height: 430px;
+  transition: 0.25s;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  justify-content: center;
+}
+
+.secRight:hover {
+  top: -7px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  width: 74%;
+  height: 554px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 40%);
+  margin: auto;
+}
+
+.sectionSubTag {
+  font-family: "Open Sans", "open-sans", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  color: #000000;
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.sectionTag {
+  font-family: "Open Sans", "open-sans", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+/* #img {
+  width: 237px;
+  height: 146px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+} */
+#img {
+  width: 110%;
+  background-color: red;
+  /* padding: 10px; */
+}
+
+.welcomebrief {
+  background-image: linear-gradient(to right, #8e9eab, #eef2f3);
+  /* height: 100vh; */
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.weltitle {
+  font-family: "Tiro Devanagari Hindi", serif;
+
+  color: #363e55;
+  font-size: 40px;
+}
+
+.welbrief {
+  font-family: "Tiro Devanagari Hindi", serif;
+  color: #363e55;
+  font-size: 20px;
+  /* margin: 10px; */
+  /* background-color: red;
+  margin-right: 10px; */
+}
+
+.welcont {
+  /* background-color: red; */
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+.welcontbox {
+  display: flex;
+  padding: 4%;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 10px;
+  width: 100%;
+  background-color: #e78432;
+}
+
+.footercont {
+  background-color: #282828;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.item {
+  color: white;
+  /* text-decoration: none; */
+  padding: 1%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footertxt {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#copywrite {
+  text-align: center;
+  padding: 1%;
+  background-color: #121212;
+  color: white;
+}
+
+.schoolimg {
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
+  transition: 0.25s;
+  width: 40%;
+  width: 290px;
+
+  overflow: hidden;
+  /* position: relative; */
+  border-radius: 8px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  margin: 1%;
+  top: 0px;
+}
+
+#card:hover {
+  top: -7px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cardCont {
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  /* background-color: #363e55; */
+  /* height: 290px; */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color 0.5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 520px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  visibility: hidden;
+}
+
+.ham-menu {
+  /* position: absolute; */
+  /* left: 755px; */
+  /* top: 80px; */
+  visibility: hidden;
+}
+
+.sidenav a {
+  padding: 44px 7px 7px 78px;
+  text-decoration: none;
+  font-size: 65px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+  font-family: "Tiro Devanagari Hindi", serif;
+  /* color: #ffcf00; */
+  /* text-align: center; */
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 120px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+.brcont {
+  visibility: hidden;
+  top: -1000px;
+  position: absolute;
+}
+/* 
+.hamcont{
+  background-color: red;
+  flex-direction: row;
+} */
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-list {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .box-main {
+    width: 100vh;
+    flex-direction: column-reverse;
+    /* background-color: red; */
+  }
+
+  body {
+    width: 228%;
+    justify-content: center;
+  }
+
+  .background {
+    height: 170vh;
+  }
+
+  .brcont {
+    padding: 20px;
+    background-color: #282828;
+    visibility: visible;
+    top: 0px;
+    position: relative;
+  }
+
+  .logo {
+    width: 16%;
+    justify-content: center;
+    margin-left: 300px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-family: "Arya", sans-serif;
+    color: #ffcf00;
+  }
+
+  .ham-menu {
+    visibility: visible;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .cards {
+    flex-direction: column;
+    display: block;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  #card {
+    width: 95%;
+    height: 670px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    /* margin: 30px; */
+  }
+
+  .card-cont {
+    margin: 50px;
+  }
+
+  .cardCont {
+    padding: 10px;
+    height: 600px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.opacity {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+  padding: 5px;
+}
+
+/* Caption text */
+#text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding-left: 12px;
+  width: 100%;
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-weight: "bolder";
+  text-align: center;
+}
+#text-2 {
+  color: #f2f2f2;
+  font-size: 22px;
+  width: 100%;
+  padding-left: 12px;
+  font-family: "Tiro Devanagari Hindi", serif;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
